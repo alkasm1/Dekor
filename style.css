@@ -1,0 +1,40 @@
+body {
+  font-family: "Cairo", sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem 0;
+}
+
+main {
+  padding: 1rem;
+}
+
+.upload-section, .tools-section {
+  margin: 1rem 0;
+}
+
+canvas {
+  border: 2px solid #ccc;
+  margin-top: 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
